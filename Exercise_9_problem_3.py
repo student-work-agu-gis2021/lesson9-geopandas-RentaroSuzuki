@@ -17,6 +17,7 @@ data=data.to_crs(epsg=32735)
 
 # YOUR CODE HERE 2 to set crs
 
+
 # CODE FOR TESTING YOUR SOLUTION
 
 # Check the data
@@ -31,7 +32,7 @@ print(data.crs)
 #  - Group the data by userid
 
 #  YOUR CODE HERE 3 to group 
-grouped=None
+grouped=data.groupby('userid')
 
 # CODE FOR TESTING YOUR SOLUTION
 
