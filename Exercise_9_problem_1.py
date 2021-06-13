@@ -79,7 +79,7 @@ geo.plot
 fp = 'polygon.shp'
 
 # YOUR CODE HERE 5
-
+geo.to_file(fp)
 
 # CODE FOR TESTING YOUR SOLUTION
 
