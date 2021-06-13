@@ -11,7 +11,11 @@ import pandas as pd
 import geopandas as gpd
 from shapely.geometry import Point
 # YOUR CODE HERE 1 to read data
-data = None
+data=pd.read_csv('data/some_posts.csv')
+
+data=pd.read_csv('data/some_posts.csv')
+make_point=lambda row:Point(row['lat'],row['lon'])
+data['geometry']=data.apply(make_point,axis=1)
 
 
 # CODE FOR TESTING YOUR SOLUTION
