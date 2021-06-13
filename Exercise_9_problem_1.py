@@ -49,7 +49,7 @@ print(poly.geom_type)
 # Create an empty GeoDataFrame
 
 # YOUR CODE HERE 3
-geo = gpd.FeoDataFrame(index=[0],columns=['geometry'])
+geo = gpd.GeoDataFrame(index=[0],columns=['geometry'])
 geo['geometry']=poly
 
 # CODE FOR TESTING YOUR SOLUTION
