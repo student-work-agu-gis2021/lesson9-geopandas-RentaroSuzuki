@@ -36,6 +36,8 @@ from pyproj import CRS
 
 # Convert DataFrame into a GeoDataFrame
 geo=gpd.GeoDataFrame(index=[0],columns=['geometry'])
+data=gpd.read_file('Kruger_post.shp')
+
 # CODE FOR TESTING YOUR SOLUTION
 
 # Check the geodataframe head
